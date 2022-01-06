@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b297e1d49d8d418ea9eee446aaf07d14, type: 3}
+  m_Name: Pratorians
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 6506850725563988568, guid: dc1f4f7f9382f5641826dcdba7a4ee0f, type: 3}
+  _championView:
+    _name: Pratorians
+    _logo: {fileID: 21300000, guid: b6e032dda105681498c880340d9362e6, type: 3}
+    _circleIcon:
+      _activated: {fileID: 21300000, guid: 93f93d4eb498c4c40894654df3d184ff, type: 3}
+      _deactivated: {fileID: 21300000, guid: ecf2daad448f8654587ae95e1637d278, type: 3}
+    _lock:
+      _unlockingCost: 250
+      _isUnlocked: 1
+  _championCharacteristics:
+    _damage:
+      _currentLevel: 1
+      _values:
+      - _value: 10
+        _cost: 15
+      - _value: 20
+        _cost: 25
+      - _value: 30
+        _cost: 35
+      - _value: 40
+        _cost: 50
+      - _value: 50
+        _cost: 60
+      - _value: 60
+        _cost: 75
+      - _value: 70
+        _cost: 100
+      - _value: 80
+        _cost: 125
+      - _value: 90
+        _cost: 150
+      - _value: 100
+        _cost: 200
+    _health:
+      _currentLevel: 2
+      _values:
+      - _value: 20
+        _cost: 22
+      - _value: 32
+        _cost: 35
+      - _value: 45
+        _cost: 76
+      - _value: 44
+        _cost: 58
+      - _value: 60
+        _cost: 83
+      - _value: 62
+        _cost: 101
+      - _value: 73
+        _cost: 136
+      - _value: 77
+        _cost: 156
+      - _value: 79
+        _cost: 183
+      - _value: 100
+        _cost: 200

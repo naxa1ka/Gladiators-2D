@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6dc711d364c4b699b72c7e1a6223a4a, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  _subWaves:
+  - _enemies:
+    - Enemy: {fileID: 4565710162238914782, guid: bb8e78d019f8b2246bc2477e9408e559, type: 3}
+      Health: 50
+      Damage: 25
+    - Enemy: {fileID: -1158773665073683841, guid: 7e99efc8a5ead5c48a024c71ba97ec60, type: 3}
+      Health: 50
+      Damage: 30
+  - _enemies:
+    - Enemy: {fileID: -1158773665073683841, guid: 7e99efc8a5ead5c48a024c71ba97ec60, type: 3}
+      Health: 50
+      Damage: 30
+    - Enemy: {fileID: 2324316578709400094, guid: 27764c4b474f13248bd9d2fed43f52ad, type: 3}
+      Health: 50
+      Damage: 25
+  - _enemies:
+    - Enemy: {fileID: 4565710162238914782, guid: bb8e78d019f8b2246bc2477e9408e559, type: 3}
+      Health: 50
+      Damage: 25
+    - Enemy: {fileID: 2324316578709400094, guid: 27764c4b474f13248bd9d2fed43f52ad, type: 3}
+      Health: 50
+      Damage: 35
+  - _enemies:
+    - Enemy: {fileID: -1158773665073683841, guid: 7e99efc8a5ead5c48a024c71ba97ec60, type: 3}
+      Health: 50
+      Damage: 35
+    - Enemy: {fileID: 4565710162238914782, guid: bb8e78d019f8b2246bc2477e9408e559, type: 3}
+      Health: 50
+      Damage: 40
