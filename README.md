@@ -1,5 +1,5 @@
 # Замечание:
-Данный проект был сделан по данным ресурсам - https://craftpix.net/product/gladiators-2d-game-kit/
+Данный проект был сделан по данным ресурсам - https://craftpix.net/product/gladiators-2d-game-kit/ </br>
 В связи с авторскими правами, в публичной версии проекта отсутствуют спрайты и тексутры
 
 # Gladiators
