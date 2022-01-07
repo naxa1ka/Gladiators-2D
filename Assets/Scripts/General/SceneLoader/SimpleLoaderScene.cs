@@ -4,6 +4,8 @@ public class SimpleLoaderScene : LoaderScene
 {
     public void Load(int sceneId)
     {
+        TimeState.Resume();
+        
         var asyncOperation = SceneManager.LoadSceneAsync(sceneId);
 
         LoadScene(asyncOperation);

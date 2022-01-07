@@ -14,6 +14,8 @@ public class ZenjectLoaderScene : LoaderScene
 
     public void Load(Action<DiContainer> action, int sceneId)
     {
+        TimeState.Resume();
+
         var asyncOperation = _zenjectLoaderScene.LoadSceneAsync(
             sceneId,
             LoadSceneMode.Single,
